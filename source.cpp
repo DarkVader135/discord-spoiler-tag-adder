@@ -5,7 +5,7 @@ using namespace std; // spoiler tag programe
 string sentence;
 int i=3;
 int main () {
-    
+
     cout << ",------.  ,--.                              ,--.   ,--------.                    ,---.     ,--.   ,--.              " << endl;
     cout << "|  .-.  ` `--' ,---.  ,---. ,---. ,--.--. ,-|  |   '--.  .--',--,--. ,---.      /  O  `  ,-|  | ,-|  | ,---. ,--.--." << endl;
     cout << "|  |  `  :,--.(  .-' | .--'| .-. ||  .--'' .-. |      |  |  ' ,-.  || .-. |    |  .-.  |' .-. |' .-. || .-. :|  .--'" << endl;
@@ -15,6 +15,9 @@ int main () {
 
     cout << "please enter the sentence u wish to add spoiler tags to :" << endl;
     getline(cin, sentence);
+
+    cout << " " << endl;
+
     sentence.insert(0,"||");
     int size = sentence.size();
 
@@ -28,7 +31,10 @@ int main () {
     sentence += "||" ;
     
     cout << "results :" << endl;
-    cout << sentence << endl;
+    cout << sentence ;
+
+    cout << " " << endl;
+    
     system("pause");
     return 0;
 }
