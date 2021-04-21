@@ -20,5 +20,6 @@ int main () {
     sentence += "||" ;
 
     cout << sentence << endl;
+    system("pause");
     return 0;
 }
