@@ -30,7 +30,7 @@ int main () {
     sentence += "||" ;
     
     cout << "results :" << endl;
-    cout << sentence ;
+    cout << sentence << endl;
 
     system("pause");
     return 0;
